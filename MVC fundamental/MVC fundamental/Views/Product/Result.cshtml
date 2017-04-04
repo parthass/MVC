@@ -1,0 +1,42 @@
+﻿@model MVC_fundamental.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateProduct</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td> Product Id</td>
+                <td>@Model.ProductId</td>
+            </tr>
+            <tr>
+                <td> Product Name</td>
+                <td>@Model.Name </td>
+            </tr>
+            <tr>
+                <td> Product Description</td>
+                <td>@Model.Description</td>
+            </tr>
+            <tr>
+                <td> Product Price</td>
+                <td>@Model.price</td>
+            </tr>
+            <tr>
+                <td> Product Category</td>
+                <td>@Model.Category</td>
+            </tr>
+
+        </table>
+        
+    </div>
+</body>
+</html>
