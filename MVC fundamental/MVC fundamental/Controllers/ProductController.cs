@@ -18,7 +18,7 @@ namespace MVC_fundamental.Controllers
         public ViewResult CreateProduct()
         {
             Product p1 = new Product { ProductId = 100, Name = "Patanjali", Description = "Atta", price = 85, Category = "Food" };
-            return View("Result",p1);
+            return View("Result1",p1);
         }
 
         public Decimal GetProductPrice()
